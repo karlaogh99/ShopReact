@@ -1,0 +1,72 @@
+[
+  {
+    "idRef": "PE01",
+    "name": "Pelota de Voleibol",
+    "price": 74.99,
+    "description": "Pelota profesional ideal para competiciones y entrenamientos avanzados. Fabricada con materiales de alta calidad para un rendimiento óptimo.",
+    "img": "https://sps-sport.com/18829-large_default/mikasa-v200w.jpg"
+  },
+  {
+    "idRef": "RE01",
+    "name": "Red de Voleibol",
+    "price": 159.99,
+    "description": "Red reglamentaria 2023 de alta resistencia y durabilidad. Cumple con las normativas oficiales para competiciones de voleibol.",
+    "img":"https://contents.mediadecathlon.com/m1394174/k$2038001584d3c3b8177d0d91498f1d7b/sq/red-voleibol-playa-basica-con-cinta-superior-pvc-color-negro.jpg?format=auto&f=800x0"
+  },
+  {
+    "idRef": "ZA01",
+    "name": "Zapatillas de Voleibol",
+    "price": 79.99,
+    "description": "Zapatillas especializadas para voleibol, ofrecen comodidad y sujeción óptimas durante el juego. Diseño moderno y transpirable.",
+    "img": "https://zonaindoor.com/7679-large_default/asics-gel-rocket-9-mujer-negro.jpg"
+  },
+  {
+    "idRef": "RO01",
+    "name": "Rodilleras para Voleibol",
+    "price": 24.99,
+    "description": "Rodilleras acolchadas para la protección durante los partidos de voleibol. Diseñadas para brindar confort y resistencia.",
+    "img": "https://www.inercia.com/media/catalog/product/cache/1/image/800x800/444c2d39b70eef4bd4be784a84c4e942/r/o/rodilleras_pro-tec_street_open_back_negro_1.jpg"
+  },
+  {
+    "idRef": "UN01",
+    "name": "Equipación equipo oficial",
+    "price": 49.99,
+    "description": "Equipación completa para el equipo oficial de voleibol. Incluye camiseta, pantalones cortos y calcetines. Diseño exclusivo y cómodo.",
+    "img": "https://clubvoleibolguaguas.com/wp-content/uploads/2021/09/WEB_0010_5.-Foto-Moises.jpg"
+  },
+  {
+    "idRef": "BO01",
+    "name": "Bolsa para Equipamiento",
+    "price": 34.99,
+    "description": "Bolsa espaciosa diseñada para transportar todo tu equipamiento de voleibol de manera cómoda y segura. Resistente y duradera.",
+    "img": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/13149551-1504955549460102.jpg"
+  },
+  {
+    "idRef": "BA01",
+    "name": "Balón de Entrenamiento",
+    "price": 15.99,
+    "description": "Balón de entrenamiento resistente y duradero. Perfecto para sesiones de práctica y desarrollo de habilidades en voleibol.",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/81qfvJteisL._AC_SL1500_.jpg"
+  },
+  {
+    "idRef": "PE01",
+    "name": "Entrenador de presición",
+    "price": 109.99,
+    "description": "Entrenador de precisión para mejorar la técnica en voleibol. Diseñado para entrenamientos específicos y desarrollo de habilidades avanzadas.",
+    "img": "https://elksport.com/media/catalog/product/e/n/entrenador-precision-voleibol-entrenamientos-perfil-bajo.jpg"
+  },
+  {
+    "idRef": "FU01",
+    "name": "Bombín para Inflar Pelotas",
+    "price": 7.99,
+    "description": "Bombín práctico y compacto para inflar pelotas de voleibol. Diseño eficiente y duradero para mantener tus pelotas siempre listas para el juego.",
+    "img": "https://www.elinapilates.com/eu/4910-large_default/bomba-hinchado-vertical.jpg"
+  },
+  {
+    "idRef": "MA01",
+    "name": "Marcador de Puntuación",
+    "price": 12.99,
+    "description": "Marcador de puntuación para partidos de voleibol. Fácil de usar y con números grandes y claros para una visibilidad óptima.",
+    "img": "https://fmvoley.com/tienda/wp-content/uploads/2018/11/marcador-1.jpg"
+  }
+]

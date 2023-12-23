@@ -1,0 +1,38 @@
+.landing-page {
+    text-align: center;
+    padding: 20px;
+}
+
+.landing-image {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.landing-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.landing-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.landing-subtitle {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.landing-button {
+    background-color: #3498db;
+    color: #fff;
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.landing-button:hover {
+    background-color: #2980b9;
+}
