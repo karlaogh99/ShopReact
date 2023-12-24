@@ -40,7 +40,12 @@ export const Header =() => {
                 <img className="headlogo" src={imagen} alt="Logo"/>
             </Link>
 
-
+            <Navbar.Toggle aria-controls="basic-navbar-nav" className="header-navbar-toggler ml-auto"/>
+            {hasItemsInCart &&  (
+                <Link to="/product" onClick={handleShow} >
+                    <img className="headlogo" src={carrito} alt="Logo" />
+                </Link>
+            )}
             <Navbar.Collapse id="basic-navbar-nav" data-toggle="collapse" data-target=".navbar-collapse">
                 <Nav className="product">
                     <Link className="nav-link" to="/product" >Productos</Link>
@@ -52,18 +57,11 @@ export const Header =() => {
                     <Link className="nav-link" to="/" onClick={handleLogout} >Cierre de sesión</Link>
                 </Nav>
 
-                <Form className="product" >
+                <Form className="product d-flex justify-content-center align-items-center" >
                     <Form.Control placeholder="Buscar productos" />
                 </Form>
             </Navbar.Collapse>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" className="header-navbar-toggler"/>
-            {hasItemsInCart &&  (
-                <Link to="/product" onClick={handleShow} >
-                    <img className="headlogo" src={carrito} alt="Logo" />
-                </Link>
 
-
-            )}
             <Carrito showModal={showModal} handleClose={handleClose} />
         </Navbar>
 

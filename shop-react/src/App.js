@@ -11,7 +11,6 @@ function App() {
     const [cart, setCart] = useState(() => JSON.parse(localStorage.getItem('cart')) || []);
 
     const [confirmedOrders, setConfirmedOrders] = useState(() => JSON.parse(localStorage.getItem('confirmedOrders')) || []);
-    const [orderCancel, setOrderCancel] = useState('');
     const [showModal, setShowModal] = useState(false);
 
 
@@ -26,14 +25,11 @@ function App() {
     const resetCarrito = () => {
         setCart([])
         localStorage.setItem('cart', JSON.stringify([]));
-
-        // Ocultar el carrito
         setShowModal(false);
     };
     const resetPedidos = () => {
         setConfirmedOrders([]);
         localStorage.setItem('confirmedOrders', JSON.stringify([]));
-
     }
 
     useEffect(() => {
@@ -49,7 +45,6 @@ function App() {
                   selectedProduct, setSelectedProduct,
                   cart, setCart,
                   confirmedOrders, setConfirmedOrders,
-                  orderCancel, setOrderCancel,
                   showModal, setShowModal,
                   resetPedidos
               }}>
