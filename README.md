@@ -1,4 +1,3 @@
-Desarrollo web, solo del front aquí, para la Universidad de Internet de La Rioja para el máster: https://www.unir.net/ingenieria/master-ingenieria-software/
 # Tienda de voleibol
 
 [![Estado del Proyecto](https://img.shields.io/badge/estado-en%20desarrollo-yellow)](https://github.com/karlaogh99/ShopReact)
